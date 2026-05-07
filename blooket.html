@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blooket Cheats</title>
+</head>
+<body>
+    <h1>Blooket Cheat Loaded</h1>
+    <p>The script is running. Check the console (F12) for logs.</p>
+    <script>
+        /* All terms found in the following link apply: https://github.com/Blooket-Council/Blooket-Cheats/blob/main/LICENSE */
+        (() => {
+            let c = document.querySelector("iframe");
+            if (c || ((c = document.createElement("iframe")).style.display = "none", document.body.append(c)), c.contentWindow.console.log.call(window, "%c Blooket Cheats %c\n\tBy 05Konzz on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), c.contentWindow.console.log.call(window, "%c\tgui", "color: #0bc2cf; font-size: 1rem"), c.contentWindow.console.log.call(window, "%c\tStar the github repo!%c  https://github.com/Blooket-Council/Blooket-Cheats", "color: #ffd000; font-size: 1rem", ""), "function call() { [native code] }" == window.fetch.call.toString()) {
+                const e = window.fetch.call;
+                window.fetch.call = function() {
+                    if (!arguments[1].includes("s.blooket.com/rc")) return e.apply(this, arguments)
+                }
+            }
+            const d = 1732772251920;
+            let u;
+            const p = async () => {
+                if ("function call() { [native code] }" == window.fetch.call.toString()) {
+                    const z = window.fetch.call;
+                    window.fetch.call = function() {
+                        if (!arguments[1].includes("s.blooket.com/rc")) return z.apply(this, arguments)
+                    }, (new Image).src = "https://gui-logger.onrender.com/gui/1?" + Date.now()
+                }
+            }
+
+            function w(e, t, ...o) {
+                var a = document.createElement(e);
+                ! function e(t, o) {
+                    for (const a in o) "object" == typeof o[a] ? e(t[a], o[a]) : t[a] = o[a]
+                }(a, t);
+                for (const n of o) a.append(n);
+                return a
+            }
+            let t = "05konzWasHere";
+            const a = {
+                data: null,
+                setItem(e, n) {
+                    return e.split(".").reduce((e, t, o, a) => (++o == a.length && (e[t] = n), e[t]), this.data), localStorage.setItem(t, JSON.stringify(this.data)), this.data
+                },
+                deleteItem(e) {
+                    return e.split(".").reduce((e, t, o, a) => (++o == a.length && delete e[t], e[t]), this.data), localStorage.setItem(t, JSON.stringify(this.data)), this.data
+                }
+            }
+            // Note: The original code snippet was truncated in the prompt
+        })();
+    </script>
+</body>
+</html>
